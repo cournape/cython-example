@@ -1,0 +1,4 @@
+To use this trivial cython example on linux:
+
+	gcc -shared libfoo.so -fPIC foo.c
+	LDFLAGS="-L." python setup.py build_ext -i
